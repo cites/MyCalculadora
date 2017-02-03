@@ -16,7 +16,7 @@
             android:layout_height="50dp"
             android:id="@+id/txtRes"
             android:layout_weight="1"
-            android:text="88888888"
+            android:text="@string/res"
             android:elevation="1dp"
             android:typeface="normal"
             android:textSize="30sp"
@@ -39,7 +39,7 @@
             style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_column="0"
             android:layout_row="0"
-            android:text="7" />
+            android:text="@string/siete" />
 
         <TextView
             android:id="@+id/numero_8"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_row="0"
-            android:text="8" />
+            android:text="@string/ocho" />
 
         <TextView
             android:id="@+id/numero_9"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_row="0"
-            android:text="9" />
+            android:text="@string/nueve" />
 
         <TextView
             android:id="@+id/numero_4"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_row="1"
-            android:text="4" />
+            android:text="@string/cuatro" />
 
         <TextView
             android:id="@+id/numero_5"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_row="1"
-            android:text="5" />
+            android:text="@string/cinco" />
 
         <TextView
             android:id="@+id/numero_6"
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_row="1"
-            android:text="6" />
+            android:text="@string/seis" />
 
         <TextView
             android:id="@+id/signo_por"
@@ -92,7 +92,7 @@
             android:layout_gravity="fill"
             android:layout_row="1"
             android:gravity="center"
-            android:text="×" />
+            android:text="@string/mult" />
 
         <TextView
             android:id="@+id/textView10"
@@ -100,14 +100,14 @@
             android:layout_column="3"
             android:layout_gravity="fill_horizontal"
             android:layout_row="0"
-            android:text="÷" />
+            android:text="@string/div" />
 
         <TextView
             android:id="@+id/numero_1"
             style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_column="0"
             android:layout_row="2"
-            android:text="1" />
+            android:text="@string/uno" />
 
         <TextView
             android:id="@+id/numero_2"
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_row="2"
-            android:text="2" />
+            android:text="@string/dos" />
 
         <TextView
             android:id="@+id/numero_3"
@@ -125,7 +125,7 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_row="2"
-            android:text="3" />
+            android:text="@string/tres" />
 
         <TextView
             android:id="@+id/signo_menos"
@@ -134,7 +134,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="2"
             android:gravity="center"
-            android:text="-" />
+            android:text="@string/resta" />
 
         <TextView
             android:id="@+id/punto"
@@ -143,14 +143,14 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="3"
             android:gravity="center_horizontal"
-            android:text="." />
+            android:text="@string/coma" />
 
         <TextView
             android:id="@+id/cero"
             style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_column="1"
             android:layout_row="3"
-            android:text="0" />
+            android:text="@string/cero" />
 
         <TextView
             android:id="@+id/signo_igual"
@@ -158,7 +158,7 @@
             android:layout_column="2"
             android:layout_gravity="fill_horizontal"
             android:layout_row="3"
-            android:text="=" />
+            android:text="@string/igual" />
 
         <TextView
             android:id="@+id/signo_mas"
@@ -166,6 +166,6 @@
             android:layout_column="3"
             android:layout_gravity="fill_horizontal"
             android:layout_row="3"
-            android:text="+" />
+            android:text="@string/suma" />
     </GridLayout>
 </RelativeLayout>
